@@ -1,8 +1,12 @@
 echo "SALVANDO A CONFIGURAÇÃO"
 mkdir BKP
-cp ~/.ssh/config ./BKP/
-
-cat cfg >> ~/.ssh/config
+cp ~/.ssh/* ./BKP/
+cfgFile='./BKP/config'
+if [ -f $cfgFile ]; then
+	cat ./cfg >> ~/.ssh/config
+else
+	cat ./cfg > ~/.ssh/config
+fi
 cat priv > ~/.ssh/DELETEME
 cat pub > ~/.ssh/DELETEME.pub
 chmod 400 ~/.ssh/DELETEME
