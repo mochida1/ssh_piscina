@@ -4,7 +4,7 @@ script malandro pra botar uma chave SSH descartável para a piscina
 # como usar:
 baixe o repositorio.
 rode o me.sh
-copia a chave pra intra.
+se for a primeira correção: copia a chave pra intra.
 use o fingerprint.sh pra checar se é a mesma fingerprint
 
 corrija a porra toda.
