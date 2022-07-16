@@ -1,4 +1,5 @@
 #!/bin/bash
+#script do flávio(fde-capu)
 
 if [[ $# -eq 0 ]] ; then
 	echo -e '\nUsage:\n\t./gen.sh board_size\n';
