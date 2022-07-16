@@ -1,3 +1,4 @@
+# generator.py dos recursos do projeto
 from __future__ import print_function
 import sys
 import random
