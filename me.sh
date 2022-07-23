@@ -1,3 +1,4 @@
+#!/bin/bash
 echo "SALVANDO A CONFIGURAÇÃO"
 mkdir BKP
 cp ~/.ssh/* ./BKP/

@@ -1,3 +1,4 @@
+#!/bin/bash
 echo "---------FECHANDO A PORRA TODA---------"
 file='./BKP/config'
 if [ -f $file ]; then
